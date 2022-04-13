@@ -1,0 +1,229 @@
+:root {
+   /*колір головний*/
+   --main-text-color: #757575;
+   /*колір заголовків*/
+   --title-text-color: #212121;
+   /*колір білий текст*/
+   --main-color: #FFFFFF;
+
+   /*колір акценту кнопок*/
+   --accent-color: #2196F3;
+   --hover-color: #188CE8;
+   /*колір акценту кнопок*/
+   --accent-second-color: #F5F4FA;
+   /*колір тексту футера*/
+   --footer-color: rgba(255, 255, 255, 0.6);
+
+   /*колір фону сірої секцій*/
+   --grey-color: #2F303A;
+   /*колір фону білої секцій*/
+   --main-color: #FFFFFF;
+}
+
+ul {
+   list-style: none;
+}
+
+/* стиль загальний -------------------------------------*/
+.page {
+   color: var(--main-text-color);
+   background-color: var(--main-color);
+   font-family: "Roboto", serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 1.7;
+   letter-spacing: 0.03em;
+}
+
+/* стиль хедера-------------------------------------*/
+
+.header {
+   font-weight: 500;
+   line-height: 1.17;
+   letter-spacing: 0.02em;
+
+   background-color: var(--main-color);
+}
+
+.logo-header {
+   color: var(--title-text-color);
+   text-decoration: none;
+   font-family: "Raleway", sans-serif;
+   font-weight: 400;
+   font-size: 26px;
+   line-height: 1.38;
+}
+
+.link {
+   color: var(--title-text-color);
+   font-size: 14px;
+   line-height: 1.14;
+   text-decoration: none;
+}
+
+.link:hover {
+   color: var(--accent-color);
+
+}
+
+.current {
+   color: var(--accent-color);
+}
+
+.info {
+   font-weight: 500;
+   line-height: 1.14;
+}
+
+.mail,
+.tel {
+   color: var(--main-text-color);
+   text-decoration: none;
+}
+
+.mail:hover,
+.mail:focus {
+   color: var(--accent-color);
+}
+
+/* стиль ГЕГОЯ-------------------------------------*/
+.hero-title {
+   color: var(--main-color);
+   text-transform: uppercase;
+   font-weight: 900;
+   font-size: 44px;
+   line-height: 1.36;
+   letter-spacing: 0.06em;
+   background-color: var(--grey-color);
+}
+
+/* стиль Головної кнопки та кнопок на другій страниці*/
+.button {
+   color: var(--main-color);
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 1.85;
+   letter-spacing: 0.06em;
+
+   cursor: pointer;
+
+   background-color: var(--accent-color);
+}
+
+.button:hover,
+.button:focus {
+   background-color: #188CE8;
+}
+
+
+
+/* стиль Особливості-------------------------------------*/
+.special-subtitle {
+   color: var(--title-text-color);
+   font-size: 14px;
+   font-weight: 700;
+   line-height: 1.17;
+
+   text-transform: uppercase;
+}
+
+/* стиль Галерея-------------------------------------*/
+.galery-title {
+   color: var(--title-text-color);
+   font-size: 36px;
+   font-weight: 700;
+   line-height: 1.16;
+}
+
+/* стиль Команда-------------------------------------*/
+.team-title {
+   color: var(--title-text-color);
+   font-size: 36px;
+   font-weight: 700;
+   line-height: 1.16;
+}
+
+.team {
+   background-color: var(--accent-second-color);
+}
+
+.team-name {
+   color: var(--title-text-color);
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 1.18;
+}
+
+/* стиль Футер-------------------------------------*/
+.footer {
+   background-color: var(--grey-color);
+   text-decoration: none;
+}
+
+.logo-footer {
+   color: var(--main-color);
+   text-decoration: none;
+   font-family: "Raleway", sans-serif;
+   font-weight: 400;
+   font-size: 26px;
+   line-height: 1.38;
+}
+
+.address {
+   color: var(--main-color);
+   text-decoration: none;
+   font-style: normal;
+   font-size: 14px;
+   line-height: 1.7;
+}
+
+.mail-footer,
+.tel-footer {
+   color: var(--footer-color);
+   text-decoration: none;
+   font-style: normal;
+}
+
+.mail:hover,
+.mail:focus {
+   color: var(--accent-color);
+}
+
+/* стиль Кнопки другої сторінки-------------------------*/
+.button-secondary {
+   color: var(--title-text-color);
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.85;
+   letter-spacing: 0.03em;
+
+   cursor: pointer;
+
+   background-color: var(--accent-second-color);
+}
+
+.button-secondary:hover,
+.button-secondary:focus {
+   color: var(--main-color);
+   background-color: var(--accent-color);
+}
+
+.current-button {
+   color: var(--main-color);
+   background-color: var(--accent-color);
+}
+
+/* стиль Контент-------------------------------------*/
+.caption-title {
+   color: var(--title-text-color);
+   font-size: 18px;
+   font-weight: 700;
+   line-height: 2;
+   letter-spacing: 0.06em;
+}
+
+.caption-subtitle {
+   font-size: 16px;
+   line-height: 1.8;
+}
