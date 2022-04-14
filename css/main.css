@@ -50,9 +50,9 @@ ul {
    color: var(--title-text-color);
    text-decoration: none;
    font-family: "Raleway", sans-serif;
-   font-weight: 400;
-   font-size: 26px;
-   line-height: 1.38;
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 1.17;
 }
 
 .link {
@@ -83,11 +83,17 @@ ul {
 }
 
 .mail:hover,
-.mail:focus {
+.mail:focus,
+.tel:hover,
+.tel:focus {
    color: var(--accent-color);
 }
 
 /* стиль ГЕГОЯ-------------------------------------*/
+.hero {
+   background-color: var(--grey-color);
+}
+
 .hero-title {
    color: var(--main-color);
    text-transform: uppercase;
@@ -95,7 +101,7 @@ ul {
    font-size: 44px;
    line-height: 1.36;
    letter-spacing: 0.06em;
-   background-color: var(--grey-color);
+
 }
 
 /* стиль Головної кнопки та кнопок на другій страниці*/
@@ -165,9 +171,9 @@ ul {
    color: var(--main-color);
    text-decoration: none;
    font-family: "Raleway", sans-serif;
-   font-weight: 400;
-   font-size: 26px;
-   line-height: 1.38;
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 1.17;
 }
 
 .address {
@@ -224,6 +230,12 @@ ul {
 }
 
 .caption-subtitle {
+   color: var(--main-text-color);
    font-size: 16px;
    line-height: 1.8;
+}
+
+.caption-link {
+   text-decoration: none;
+
 }
