@@ -50,6 +50,11 @@ p {
    margin: 0;
 }
 
+.visually-hidden {
+   position: fixed;
+   transform: scale(0);
+}
+
 .container {
    width: 1200px;
    padding-left: 15px;
@@ -69,11 +74,6 @@ p {
    font-size: 14px;
    line-height: 1.7;
    letter-spacing: 0.03em;
-}
-
-.visually-hidden {
-   position: fixed;
-   transform: scale(0);
 }
 
 /* стиль хедера-------------------------------------*/
@@ -238,37 +238,8 @@ p {
 /* стиль ГЕГОЙ-------------------------------------*/
 
 
-
-/* стиль Головної кнопки та кнопок на другій страниці*/
-/*.button {
-   color: var(--main-color);
-   font-weight: 700;
-   font-size: 16px;
-   line-height: 1.85;
-   letter-spacing: 0.06em;
-   padding-top: 10px;
-   padding-bottom: 10px;
-   padding-left: 32px;
-   padding-right: 32px;
-   cursor: pointer;
-
-   background-color: var(--accent-color);
-}
-
-.button:hover,
-.button:focus {
-   background-color: #188CE8;
-}*/
-
-
-
 /* стиль Особливості-------------------------------------*/
 
-/*.special {
-   padding-top: 94px;
-   padding-bottom: 94px;
-}
-*/
 .galery-title-list {
    display: flex;
    flex-wrap: wrap;
@@ -413,7 +384,6 @@ p {
 
 /* стиль Команда-------------------------------------*/
 
-"hidden"aria-hidden="true"
 
 /* стиль Футер-------------------------------------*/
 .footer {
