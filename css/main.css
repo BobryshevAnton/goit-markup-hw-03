@@ -370,10 +370,17 @@ section.work {
 }
 
 .personal-pict {
-   margin-top: 30px;
+   /*margin-top: 30px;
    margin-bottom: 30px;
+*/
+}
+
+.personal-title {
+   padding-top: 30px;
+   padding-bottom: 30px;
 
 }
+
 
 .personal-name {
    color: var(--title-text-color);
@@ -511,7 +518,7 @@ section.work {
 .portfolio-card {
    box-sizing: border-box;
 
-   display: block;
+
    margin-right: 30px;
    margin-bottom: 30px;
 }
@@ -530,7 +537,10 @@ section.work {
    border-bottom: 1px solid #EEEEEE;
    border-right: 1px solid #EEEEEE;
    border-left: 1px solid #EEEEEE;
-
+   padding-left: 24px;
+   padding-right: 24px;
+   padding-top: 20px;
+   padding-bottom: 20px;
 }
 
 .portfolio-name {
@@ -540,7 +550,7 @@ section.work {
    line-height: 2;
    letter-spacing: 0.06em;
    padding-top: 20px;
-   margin-left: 24px;
+
 
 }
 
