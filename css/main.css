@@ -217,7 +217,7 @@ p {
 
 .section.hero {
    padding-top: 200px;
-   padding-bottom: 280px;
+   padding-bottom: 200px;
 }
 
 
@@ -363,15 +363,15 @@ section.work {
    text-align: center;
 }
 
-.personal-card {}
 
-.personal-card:not(:last-child) {
+
+.personal-pict:not(:last-child) {
    margin-right: 30px;
 }
 
-.personal-title {
-   padding-top: 30px;
-   padding-bottom: 30px;
+.personal-pict {
+   margin-top: 30px;
+   margin-bottom: 30px;
 
 }
 
@@ -429,13 +429,14 @@ section.work {
    font-size: 14px;
    line-height: 1.7;
    display: flex;
+
+}
+
+.adress-list.address,
+.adress-list.mail-footer {
    margin-bottom: 9px;
 }
 
-.mail-footer {
-   margin-bottom: 9px;
-
-}
 
 .mail-footer,
 .tel-footer {
@@ -529,7 +530,7 @@ section.work {
    border-bottom: 1px solid #EEEEEE;
    border-right: 1px solid #EEEEEE;
    border-left: 1px solid #EEEEEE;
-   text-align: center;
+
 }
 
 .portfolio-name {
@@ -539,6 +540,7 @@ section.work {
    line-height: 2;
    letter-spacing: 0.06em;
    padding-top: 20px;
+   margin-left: 24px;
 
 }
 
@@ -548,6 +550,7 @@ section.work {
    line-height: 1.8;
    padding-top: 8px;
    padding-bottom: 20px;
+   margin-left: 24px;
 }
 
 .pict {
